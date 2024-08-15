@@ -1,0 +1,80 @@
+<resources>
+        <string name="app_name">Bandung Safety Alert</string>
+        <string name="welcome_message">Welcome to Bandung Safety Alert</string>
+        <string name="report_crime">Report Crime</string>
+        <string name="crime_data">Crime Data</string>
+        <string name="crime_tips">Crime Tips</string>
+        <string name="submit_report">Submit Report</string>
+        <string name="hint_crime_title">Crime Title</string>
+        <string name="hint_crime_description">Crime Description</string>
+        <string name="no_data">No Data Available</string>
+        <string name="msg_token_fmt">FCM Token: %1$s</string>
+        <string name="app_footer">Stay Safe, Stay Alert</string>
+        <string name="failed_to_load_data">Failed to load data.</string>
+        <string name="TipsUmum">
+            <![CDATA[
+        Tips Umum:
+        \n\n
+        1. Tingkatkan Kewaspadaan: Selalu perhatikan lingkungan sekitar. Hindari berjalan sendirian di tempat yang sepi, terutama pada malam hari.\n
+        2. Percaya Insting: Jika merasakan ada yang tidak beres, segera tinggalkan tempat tersebut. Insting seringkali tepat dalam mendeteksi bahaya.\n
+        3. Informasikan Rute Perjalanan: Beritahu keluarga atau teman dekat mengenai tujuan dan rute perjalanan Anda.\n
+        4. Hindari Menunjukkan Barang Berharga: Jangan memamerkan perhiasan atau barang berharga lainnya di tempat umum.\n
+        5. Lindungi Data Pribadi: Hati-hati terhadap penipuan online. Jangan mudah memberikan informasi pribadi kepada orang yang tidak dikenal.\n
+            ]]>
+        </string>
+        <string name="TipsdiRumah">
+            <![CDATA[
+        Keamanan di Rumah:
+        \n\n
+        1. Pasang Alarm: Pasang alarm pada pintu dan jendela rumah.\n
+        2. Gunakan Penerangan yang Cukup: Pastikan rumah Anda memiliki penerangan yang cukup, terutama di bagian luar.\n
+        3. Jangan Mudah Membuka Pintu: Jangan membuka pintu untuk orang yang tidak dikenal, kecuali jika Anda yakin mengenal mereka.\n
+        4. Sembunyikan Barang Berharga: Simpan barang berharga di tempat yang aman dan tidak mudah terlihat.\n
+            ]]>
+        </string>
+        <string name="TipsTransportasiUmum">
+            <![CDATA[
+        Keamanan di Transportasi Umum:
+        \n\n
+        1. Pilih Tempat Duduk yang Strategis: Pilih tempat duduk yang memungkinkan Anda melihat sekeliling dengan mudah.\n
+        2. Jangan Tidur Terlalu Pulas: Hindari tidur terlalu pulas saat menggunakan transportasi umum, terutama jika bepergian sendirian.\n
+        3. Waspada terhadap Orang di Sekitar: Perhatikan orang-orang di sekitar Anda, terutama jika ada yang berperilaku mencurigakan.\n
+            ]]>
+        </string>
+        <string name="TipsTempatUmum">
+            <![CDATA[
+        Keamanan di Tempat Umum:
+        \n\n
+        1. Parkir di Tempat yang Ramai: Saat parkir, pilih tempat yang ramai dan memiliki pencahayaan yang cukup.\n
+        2. Jangan Tinggalkan Barang Tanpa Pengawasan**: Jangan meninggalkan barang berharga tanpa pengawasan, meskipun hanya sebentar.\n
+        3. Bergabunglah dengan Komunitas: Bergabung dengan komunitas atau kelompok warga dapat meningkatkan keamanan lingkungan.\n
+            ]]>
+        </string>
+        <string name="TipsKejahatanSiber">
+            <![CDATA[
+        Pencegahan Kejahatan Siber:
+        \n\n
+        1. Gunakan Password yang Kuat: Buat password yang kuat dan unik untuk setiap akun.\n
+        2. Hati-hati dengan Phishing: Jangan klik tautan atau membuka lampiran email dari pengirim yang tidak dikenal.\n
+        3. Jaga Kerahasiaan Informasi Pribadi: Jangan mudah membagikan informasi pribadi di media sosial.\n
+        4. Perbarui Perangkat Lunak: Selalu perbarui perangkat lunak dan sistem operasi untuk mendapatkan perlindungan terbaru.\n
+            ]]>
+        </string>
+        <string name="TipsBelaDiri">
+            <![CDATA[
+        Penting untuk Diingat:
+        \n\n
+        1. Latihan Bela Diri: Mempelajari dasar-dasar bela diri dapat meningkatkan kepercayaan diri dan kemampuan untuk melindungi diri.\n
+        2. Bekerjasama dengan Pihak Berwajib: Laporkan setiap kejadian mencurigakan kepada pihak berwajib.\n
+            ]]>
+        </string>
+        <string name="TipsTambahan">
+            <![CDATA[
+        Tips Tambahan:
+        \n\n
+        1. Tingkatkan Kesadaran Lingkungan: Perhatikan lingkungan sekitar dan laporkan jika ada aktivitas yang mencurigakan.\n
+        2. Jalin Komunikasi yang Baik: Jalin komunikasi yang baik dengan tetangga dan komunitas sekitar.\n
+        3. Hindari Jalan Sendirian di Tempat yang Sepi: Jika terpaksa harus berjalan sendirian, pilihlah jalan yang ramai dan memiliki penerangan yang cukup.\n
+            ]]>
+        </string>
+</resources>

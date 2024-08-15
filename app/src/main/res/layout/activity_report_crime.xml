@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo Dulur!"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harap berikan deskripsi singkat tentang jenis kejahatan yang terjadi, seperti pencurian, perampokan, atau penyerangan"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/WaktuKejahatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Waktu Kejahatan"
+        android:drawableEnd="@drawable/ic_time"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:id="@+id/TanggalKejahatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Kejahatan"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:id="@+id/Kronologi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kronologi"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupCrimeType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/Pencurian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pencurian"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light" />
+
+        <RadioButton
+            android:id="@+id/Perampokan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perampokan"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light" />
+
+        <RadioButton
+            android:id="@+id/penyerangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penyerangan"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light" />
+
+        <RadioButton
+            android:id="@+id/perusakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perusakan"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light" />
+
+        <RadioButton
+            android:id="@+id/Penipuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penipuan"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmitReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF03A9F4"
+        android:text="@string/submit_report" />
+</LinearLayout>

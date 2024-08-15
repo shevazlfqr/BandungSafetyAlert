@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710078667874",
+    "project_id": "bandung-safety-alert-58de7",
+    "storage_bucket": "bandung-safety-alert-58de7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710078667874:android:fcfaf60957c2bc8503c53b",
+        "android_client_info": {
+          "package_name": "com.zul.bandungsafetyalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRBx3gZl0jIJ62Y86pAyiRl_VJvSQZb70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium" />
+
+    <Button
+        android:id="@+id/btnReportCrime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/report_crime"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF03A9F4"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium" />
+
+    <Button
+        android:id="@+id/btnCrimeData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_data"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF03A9F4"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium" />
+
+    <Button
+        android:id="@+id/btnCrimeTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_tips"
+        android:backgroundTint="#FF03A9F4"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_footer"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light" />
+
+</LinearLayout>
