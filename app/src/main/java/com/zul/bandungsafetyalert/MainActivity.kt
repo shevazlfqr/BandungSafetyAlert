@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Set up button click listeners
+
         binding.btnReportCrime.setOnClickListener {
             startActivity(Intent(this, ReportCrimeActivity::class.java))
         }

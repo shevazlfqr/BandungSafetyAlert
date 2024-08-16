@@ -23,7 +23,6 @@ class TipsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Set text for each TextView
         binding.tvTipsUmum.text = getString(R.string.TipsUmum)
         binding.tvTipsdiRumah.text = getString(R.string.TipsdiRumah)
         binding.tvTipsBelaDiri.text = getString(R.string.TipsBelaDiri)
